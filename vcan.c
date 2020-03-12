@@ -230,10 +230,10 @@ static void can_setup(void) {
         false,           /* NART: No automatic retransmission? */
         false,           /* RFLM: Receive FIFO locked mode? */
         false,           /* TXFP: Transmit FIFO priority? */
-        CAN_BTR_SJW_4TQ,
-        CAN_BTR_TS1_3TQ,
-        CAN_BTR_TS2_4TQ,
-        12,/* BRP+1: Baud rate prescaler */
+        CAN_BTR_SJW_1TQ,
+        CAN_BTR_TS1_4TQ,
+        CAN_BTR_TS2_3TQ,
+        6,/* BRP+1: Baud rate prescaler */
         false,
         false))
   {
